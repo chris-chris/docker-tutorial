@@ -4,6 +4,8 @@ WORKDIR /app
 
 COPY . /app
 
+ENV PORT 8080
+
 RUN pip install -r requirements.txt
 
 RUN echo "Hello world" \
