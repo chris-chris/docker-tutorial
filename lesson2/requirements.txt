@@ -1,3 +1,4 @@
 fastapi==0.79.0
 uvicorn
 pytest==7.1.2
+pytest-cov==3.0.7
